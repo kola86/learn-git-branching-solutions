@@ -38,6 +38,12 @@ git commit
 git pull —rebase
 git push
 
+1.8 Locked Master-branch
+git branch feature
+git reset HEAD~1
+git checkout feature
+git push
+
 2.1 Push Master!
 
 git fetch
